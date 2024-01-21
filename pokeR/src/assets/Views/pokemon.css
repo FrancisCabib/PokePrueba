@@ -1,0 +1,37 @@
+/* Pokemones.css */
+.pokemon-container {
+    padding-top: 1rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .detalle-pokemon-container {
+    padding-top: 1rem;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%; /* Establecer el ancho al 75% de la pantalla */
+    margin: 0 auto; /* Centrar el contenedor */
+  }
+  
+  .mx-auto {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .w-auto {
+    width: auto;
+  }
+  
+  .text-center {
+    text-align: center;
+    font-size: 4em;
+  }
+  .pokemon-imagen {
+    max-width: 300px; /* Ajusta este valor según prefieras */
+    height: 300px; /* Esto mantiene la proporción de la imagen */
+  }
